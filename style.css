@@ -1,22 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Permanent+Marker&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
+body{
+    margin: 0px;
+    background-color: aliceblue;
+}
+
+.navigation{
+    background-color: aqua;
+    padding: 1rem;
+    margin: auto;
+    
+}
+
+.top {
+    font-family: 'Concert One', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+.button-holder{
+    text-align: center;
+}
+
+.btn-translate{
+    padding: 0.5rem;
+    width: 600px;
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    font-size: large;
+    border: 2px solid black;
+    background-color: #3366ff;
+    color: white;
+    border-radius: 1rem;
+    margin-right: 16px;
+}
+
+.translation-txt{
+    font-size: large; 
+    font-weight: bold; 
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Concert One';
+}
+
 .txtarea{
     display: block;
-    margin: 1rem;
-    padding: 1rem;
     width: 90%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 1px;
+    border: 3px solid black;
+    font-family: 'Space Mono', monospace;
 }
 
 .output{
-    border: 1px solid black;
-    margin: 1rem;
+    border: 3px solid black;
+    margin:auto;
+    max-width: 600px;
     padding: 1rem;
     width: 90%;
     height: 200px;
+    background-color: #e6eeff;
+    font-family: 'Space Mono', monospace;
 }
-body{
-    background-color:#ccddff;
-}
-.head{
-    background-color: blue;
-    padding: 1rem;
-}
+
 

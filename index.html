@@ -10,15 +10,17 @@
 </head>
 
 <body>
-    <nav class="heade">
-        <h1>English-to-banana <span class="translationcolor">Translation</span> </h1>
+    <nav class="navigation">
+        <div class="top"> English-to-banana <span class="translationcolor">Translation</span>
+        </div>
     </nav>
-    <textarea placeholder="Enter text here..." name="txtarea" class="txtarea" id="inp-txtarea" cols="30"
+
+    <textarea placeholder="Enter text in English here..." name="txtarea" class="txtarea" id="inp-txtarea" cols="30"
         rows="10"></textarea>
-
-    <button style="margin-left: 1rem;" id="btn-translate">Translate</button>
-
-    <div style="font-size: large; font-weight: bold; margin-top: 1rem;margin-bottom: 1rem;"> Translation is shown below
+    <div class="button-holder">
+        <button style="margin-left: 1rem;" id="btn-translate" class="btn-translate">Translate</button>
+    </div>
+    <div class="translation-txt"> Translation is shown below
     </div>
     <div class="output" id="output-txtarea" cols="30" rows="10"></div>
 
