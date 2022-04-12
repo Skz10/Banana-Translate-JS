@@ -1,0 +1,15 @@
+.txtarea{
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    width: 90%;
+}
+
+.output{
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    width: 90%;
+    height: 200px;
+}
+
