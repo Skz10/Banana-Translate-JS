@@ -12,4 +12,11 @@
     width: 90%;
     height: 200px;
 }
+body{
+    background-color:#ccddff;
+}
+.head{
+    background-color: blue;
+    padding: 1rem;
+}
 

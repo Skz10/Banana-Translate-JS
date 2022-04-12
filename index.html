@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,21 @@
     <title>Banana App</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>English-to-banana Translation</h1>
 
-    <textarea placeholder="Enter text here..." name="txtarea" class="txtarea" id="inp-txtarea" cols="30" rows="10"></textarea>
-    
+<body>
+    <nav class="heade">
+        <h1>English-to-banana <span class="translationcolor">Translation</span> </h1>
+    </nav>
+    <textarea placeholder="Enter text here..." name="txtarea" class="txtarea" id="inp-txtarea" cols="30"
+        rows="10"></textarea>
+
     <button style="margin-left: 1rem;" id="btn-translate">Translate</button>
 
-    <div style="font-size: large; font-weight: bold; margin-top: 1rem;margin-bottom: 1rem;"> Translation is shown below</div>
-    <div class="output" id="output-txtarea"></div>
+    <div style="font-size: large; font-weight: bold; margin-top: 1rem;margin-bottom: 1rem;"> Translation is shown below
+    </div>
+    <div class="output" id="output-txtarea" cols="30" rows="10"></div>
 
     <script src="app.js" type="text/javascript"></script>
 </body>
+
 </html>
